@@ -1,8 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import "tailwindcss";
 
-@theme {
-  --font-lato: "Lato", sans-serif; 
-  --color-pink: "#fe2d88";
+:root {
+  --color-green: #00b178;
+  --color-pink: #fe2d88;
+  --color-darkPink: #ff2b5a;
 }
 
+@layer base {
+  h2 {
+    @apply text-center !font-extrabold !text-lg lg:!text-2xl;
+  }
+  h3 {
+    @apply !font-bold !text-[var(--color-pink)];
+  }
+  h4 {
+    @apply text-center !font-bold !text-lg;
+  }
+}
