@@ -1191,8 +1191,8 @@
     </main>
 
     <footer class="bg-white">
-      <div class="block lg:flex justify-center py-10 lg:w-5xl mx-auto w-full">
-        <section class="py-10 px-3 flex flex-col gap-3 lg:max-w-sm">
+      <div class="block lg:flex justify-center py-10  mx-auto w-full">
+        <section class="py-10 px-3 flex flex-col gap-3 lg:max-w-80">
           <h3>Fique por dentro das nossas novidades</h3>
           <div class="flex gap-4 mb-2">
             <input
@@ -1216,58 +1216,164 @@
         </section>
 
         <!-- MENU -->
-        <section class="">
-          <ul class="mx-10 !pl-0">
-            <li
-              class="flex items-center justify-between border-t-2 border-b-2 border-gray-200 lg:!py-2 py-4 lg:border-0"
-            >
-              <span class="font-bold text-[var(--color-pink)] text-lg"
-                >Sobre</span
+        <section class="mx-3 mb-10 lg:mx-0 lg:mb-0 lg:max-w-md">
+          <div class=" lg:grid lg:grid-cols-2 lg:gap-3">
+            <div class="border-t-2 border-gray-200 lg:!py-2 py-4 lg:border-0">
+              <div
+                id="button__acordeon"
+                class="flex items-center justify-between"
               >
-              <span class="lg:hidden text-lg font-bold">+</span>
-            </li>
-            <li
-              class="flex items-center justify-between border-b-2 border-gray-200 lg:!py-2 py-4 lg:border-0"
-            >
-              <span class="font-bold text-[var(--color-pink)] text-lg"
-                >Ajuda</span
+                <h4 class="font-bold !text-[var(--color-pink)] text-lg">
+                  Sobre
+                </h4>
+                <span class="lg:hidden text-lg font-bold">+</span>
+              </div>
+              <div
+                class="max-h-0 overflow-hidden transition-[max-height] duration-500 ease-in-out lg:max-h-60 lg:overflow-visible"
               >
-              <span class="lg:hidden text-lg font-bold">+</span>
-            </li>
-            <li
-              class="flex items-center justify-between border-b-2 border-gray-200 lg:!py-2 py-4 lg:border-0"
-            >
-              <span class="font-bold text-[var(--color-pink)] text-lg"
-                >Contato</span
+                <ul class="!pl-0 flex flex-col gap-3">
+                  <li>
+                    <a href="#" class="!no-underline text-black">
+                      Quem somos
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="!no-underline text-black">
+                      Trabalhe Conosco
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="!no-underline text-black">
+                      Este site é seguro?
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="!no-underline text-black">
+                      Política de Cookies
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="!no-underline text-black">
+                      Política de Privacidade
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="!no-underline text-black">
+                      Nossas lojas
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="border-t-2 border-gray-200 lg:!py-2 py-4 lg:border-0">
+              <div
+                id="button__acordeon"
+                class="flex items-center justify-between"
               >
-              <span class="lg:hidden text-lg font-bold">+</span>
-            </li>
-            <li
-              class="flex items-center justify-between border-b-2 border-gray-200 lg:!py-2 py-4 lg:border-0"
-            >
-              <span class="font-bold text-[var(--color-pink)] text-lg"
-                >Meus pedidos</span
+                <h4 class="font-bold !text-[var(--color-pink)] text-lg">
+                  Ajuda
+                </h4>
+                <span class="lg:hidden text-lg font-bold">+</span>
+              </div>
+              <div
+                class="max-h-0 overflow-hidden transition-[max-height] duration-500 ease-in-out lg:max-h-60 lg:overflow-visible"
               >
-              <span class="lg:hidden text-lg font-bold">+</span>
-            </li>
-            <li
-              class="flex items-center justify-between border-b-2 border-gray-200 lg:!py-2 py-4 lg:border-0"
-            >
-              <span class="font-bold text-[var(--color-pink)] text-lg"
-                >Formas de pagamento</span
+                <ul class="!pl-0 flex flex-col gap-3">
+                  <li>
+                    <a href="#" class="!no-underline text-black">
+                      Prazos de atendimento
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="!no-underline text-black">
+                      Entrega e envios
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="!no-underline text-black"> Pagamento </a>
+                  </li>
+                  <li>
+                    <a href="#" class="!no-underline text-black">
+                      Trocar e devoluções
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="!no-underline text-black">
+                      Perguntas frequentes
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="!no-underline text-black">
+                      Como rastrear pedidos
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="border-t-2 border-gray-200 lg:!py-2 py-4 lg:border-0">
+              <div
+                id="button__acordeon"
+                class="flex items-center justify-between"
               >
-              <span class="lg:hidden text-lg font-bold">+</span>
-            </li>
-          </ul>
+                <h4 class="font-bold !text-[var(--color-pink)] text-lg">
+                  Contato
+                </h4>
+                <span class="lg:hidden text-lg font-bold">+</span>
+              </div>
+              <div
+                class="max-h-0 overflow-hidden transition-[max-height] duration-500 ease-in-out lg:max-h-60 lg:overflow-visible"
+              >
+                <ul class="!pl-0 flex flex-col gap-3">
+                  <li>
+                    <a href="#" class="!no-underline text-black">
+                      lolamail@lolacosmetics.com.br
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="!no-underline text-black">
+                      Segunda à Sexta-Feira das 9h às 18h
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              class="border-t-2 border-b-2 border-gray-200 lg:!py-2 py-4 lg:border-0"
+            >
+              <div
+                id="button__acordeon"
+                class="flex items-center justify-between"
+              >
+                <h4 class="font-bold !text-[var(--color-pink)] text-lg">
+                  Meus pedidos
+                </h4>
+                <span class="lg:hidden text-lg font-bold">+</span>
+              </div>
+              <div
+                class="max-h-0 overflow-hidden transition-[max-height] duration-500 ease-in-out lg:max-h-60 lg:overflow-visible"
+              >
+                <ul class="!pl-0 flex flex-col gap-3">
+                  <li>
+                    <a href="#" class="!no-underline text-black">
+                      Acompanhe seus pedidos
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </section>
         <!-- MENU -->
 
-        <section class="lg:max-w-sm text-center">
+        <section class="lg:w-76 text-center">
           <div>
             <h3>Segurança</h3>
             <div class="flex items-center justify-center gap-3 my-4">
-              <img src="./imgs/selo1.jpg" />
-              <img src="./imgs//selo2.png" />
+              <img src="./imgs/selo1.jpg" class="w-24"/>
+              <img src="./imgs//selo2.png" class="w-24"/>
             </div>
           </div>
           <p class="text-sm">
